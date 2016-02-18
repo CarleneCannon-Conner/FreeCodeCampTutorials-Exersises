@@ -1,6 +1,9 @@
 # FreeCodeCamp
 ### Following Tutorials and Completing Exersise on Free Code Camp (http://www.freecodecamp.com)
 
+Working towards Full-Stack Certificate
+
+Currently Working on Front-End
 Technologies covered: jQuery, HTML, CSS & Bootstrap
 
 ## Tutorial: Cat Photo App

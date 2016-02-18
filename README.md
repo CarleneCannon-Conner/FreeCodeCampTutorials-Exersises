@@ -1,5 +1,5 @@
 # FreeCodeCamp
-Following Tutorials on Free Code Camp (http://www.freecodecamp.com)
+### Following Tutorials and Completing Exersise on Free Code Camp (http://www.freecodecamp.com)
 
 Technologies covered: jQuery, HTML, CSS & Bootstrap
 

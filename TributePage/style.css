@@ -1,0 +1,52 @@
+body {
+  background-color: #000000;
+}
+
+.container {
+  background-color: #91746A;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+}
+
+h1 {
+  color: yellow;
+}
+
+a {
+  color: yellow;
+}
+
+p, li {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
+.main_image {
+  padding: 1%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  margin: 10px 2px 2px 2px; }
+
+img {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px; }
+
+.image_caption {
+  font-size: 0.8em; }
+
+#joss_whedon_img {
+  width: 100%; }
+
+footer {
+  margin-top: 50px;
+  font-size: 0.8em;
+}

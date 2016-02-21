@@ -1,6 +1,8 @@
 # FreeCodeCamp
 #### Following Tutorials and Completing Exersise on Free Code Camp (http://www.freecodecamp.com)
 
+My portfolio and progress can be seen here: http://www.freecodecamp.com/carleneconner
+
 Working towards Full-Stack Certificate
 
 Currently Working on Front-End

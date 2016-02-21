@@ -1,12 +1,13 @@
 # FreeCodeCamp
-### Following Tutorials and Completing Exersise on Free Code Camp (http://www.freecodecamp.com)
+#### Following Tutorials and Completing Exersise on Free Code Camp (http://www.freecodecamp.com)
 
 Working towards Full-Stack Certificate
 
 Currently Working on Front-End
-Technologies covered: jQuery, HTML, CSS & Bootstrap
+Technologies covered: JavaScript, jQuery, HTML, CSS & Bootstrap
 
 ## Tutorial: Cat Photo App
+Bootstrap, HTML & CSS
 
 https://rawgit.com/carleneconner/FreeCodeCampTutorials-Exersises/master/CatPhotoApp/index.html
 ![Alt text](http://i.imgur.com/jOc1JF1.png?raw=true "Optional Title")
@@ -16,6 +17,8 @@ https://rawgit.com/carleneconner/FreeCodeCampTutorials-Exersises/master/CatPhoto
 Messing around with jQuery
 
 ## Project Exersise: Tribute Page
+
+Bootstrap, HTML & CSS
 
 https://rawgit.com/carleneconner/FreeCodeCampTutorials-Exersises/master/TributePage/index.html
 
@@ -35,7 +38,7 @@ our Code Review Chatroom. You can also share it on Twitter and your city's Camps
 
 ## Small Exersise: Counting Cards
 
-JavaScript, HTML, CSS
+JavaScript, HTML & CSS
 
 In the casino game Blackjack, a player can gain an advantage over the house by keeping track of the relative 
 number of high and low cards remaining in the deck. This is called Card Counting.
@@ -45,7 +48,3 @@ table below. When the count is positive, the player should bet high. When the co
 player should bet low. 
 
 https://rawgit.com/carleneconner/FreeCodeCampTutorials-Exersises/master/CountingCards/index.html
-
-
-
-

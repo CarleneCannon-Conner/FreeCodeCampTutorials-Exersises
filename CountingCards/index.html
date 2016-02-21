@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <title>Counting Cards</title>
+    <script>
+        var count = 0;
+
+        function cc(card) {
+            var decision = "Hold";
+
+            if (typeof card === 'string' || card == 10) {
+                count --;
+            }
+            else if (card < 7) {
+                count ++;
+            }
+
+            if (count > 0) {
+                decision = "Bet";
+            }
+
+            document.getElementById("decision").innerHTML = "Count: " + count
+                    + " Decision: " + decision;
+        }
+        function reset() {
+            count = 0;
+            document.getElementById("decision").innerHTML= "New Game, count is 0";
+        }
+    </script>
+    <style>
+        .row, .well {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Card Counting</h1>
+        <p class="text-justify">
+            In the casino game Blackjack, a player can gain an advantage over the
+            house by keeping track of the relative number of high and low cards
+            remaining in the deck. This is called Card Counting.<br /><br />
+            Having more high cards remaining in the deck favors the player.
+            Each card is assigned a value according to the table below. When the
+            count is positive, the player should bet high. When the count is zero
+            or negative, the player should bet low.
+        </p>
+        <div class="row">
+            <div class="col-xs-4">
+                <button class="btn btn-block" onclick="cc(2);">2</button>
+            </div>
+            <div class="col-xs-4">
+                <button class="btn btn-block" onclick="cc(3);">3</button>
+            </div>
+            <div class="col-xs-4">
+                <button class="btn btn-block" onclick="cc(4);">4</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                <button class="btn btn-block" onclick="cc(5);">5</button>
+            </div>
+            <div class="col-xs-4">
+                <button class="btn btn-block" onclick="cc(6);">6</button>
+            </div>
+            <div class="col-xs-4">
+                <button class="btn btn-block" onclick="cc(7);">7</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                <button class="btn btn-block" onclick="cc(8);">8</button>
+            </div>
+            <div class="col-xs-4">
+                <button class="btn btn-block" onclick="cc(9);">9</button>
+            </div>
+            <div class="col-xs-4">
+                <button class="btn btn-block" onclick="cc(10);">10</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                <button class="btn btn-block" onclick="cc('J');">J</button>
+            </div>
+            <div class="col-xs-4">
+                <button class="btn btn-block" onclick="cc('Q');">Q</button>
+            </div>
+            <div class="col-xs-4">
+                <button class="btn btn-block" onclick="cc('K');">K</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+            </div>
+            <div class="col-xs-4">
+                <button class="btn btn-block" onclick="cc('A');">A</button>
+            </div>
+        </div>
+        <div class="well">
+            <div id="decision">New Game, count is 0</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+            </div>
+            <div class="col-xs-4">
+            </div>
+            <div class="col-xs-4">
+                <button class="btn btn-block" onclick="reset();">Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

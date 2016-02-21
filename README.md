@@ -1,5 +1,5 @@
 # FreeCodeCamp
-#### Following Tutorials and Completing Exersise on Free Code Camp (http://www.freecodecamp.com)
+#### Following Tutorials and Completing Exercise on Free Code Camp (http://www.freecodecamp.com)
 
 My portfolio and progress can be seen here: http://www.freecodecamp.com/carleneconner
 
@@ -7,7 +7,7 @@ Working towards Full-Stack Certificate
 
 Currently Working on Front-End
 
-Technologies covered: JSON, JavaScript, jQuery, HTML, CSS & Bootstrap
+Technologies covered: JSON, JavaScript, jQuery, HTML, CSS, Bootstrap & Regular Expressions
 
 Below are some examples:
 
@@ -17,7 +17,7 @@ Bootstrap, HTML & CSS
 https://rawgit.com/carleneconner/FreeCodeCampTutorials-Exersises/master/CatPhotoApp/index.html
 ![Alt text](http://i.imgur.com/jOc1JF1.png?raw=true "Optional Title")
 
-## Project Exersise: Tribute Page
+## Project Exercise: Tribute Page
 
 Bootstrap, HTML & CSS
 
@@ -27,7 +27,7 @@ https://rawgit.com/carleneconner/FreeCodeCampTutorials-Exersises/master/TributeP
 
 •	Rule #1: Don't look at the example project's code. Figure it out for yourself. 
 
-•	Rule #2: Fulfill the below user stories. Use whichever libraries you need. Give it your own personal style. 
+•	Rule #2: Fulfil the below user stories. Use whichever libraries you need. Give it your own personal style. 
 
 •	User Story: I can view a tribute page with an image and text. 
 
@@ -37,13 +37,13 @@ https://rawgit.com/carleneconner/FreeCodeCampTutorials-Exersises/master/TributeP
 button and include a link to your CodePen. You can get feedback on your project from fellow campers by sharing it in 
 our Code Review Chatroom. You can also share it on Twitter and your city's Campsite (on Facebook).
 
-## Small Exersise: Counting Cards
+## Small Exercise: Counting Cards
 
 JavaScript, HTML & CSS
 
-Building on Exersise to make include a web front end.
+Building on Exercise to make include a web front end.
 
-Exersise Instructions:
+Exercise Instructions:
 
 You will write a card counting function. It will receive a card parameter and increment or decrement the global count 
 variable according to the card's value (see table). The function will then return a string with the current count and 

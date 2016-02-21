@@ -7,7 +7,7 @@ Working towards Full-Stack Certificate
 
 Currently Working on Front-End
 
-Technologies covered: JSON, JavaScript, jQuery, HTML, CSS, Bootstrap & Regular Expressions
+Topics covered: JSON, JavaScript, jQuery, HTML, CSS, Bootstrap & Regular Expressions
 
 Below are some examples:
 

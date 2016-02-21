@@ -4,6 +4,7 @@
 Working towards Full-Stack Certificate
 
 Currently Working on Front-End
+
 Technologies covered: JavaScript, jQuery, HTML, CSS & Bootstrap
 
 ## Tutorial: Cat Photo App

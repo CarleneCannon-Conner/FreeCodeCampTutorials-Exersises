@@ -5,17 +5,15 @@ Working towards Full-Stack Certificate
 
 Currently Working on Front-End
 
-Technologies covered: JavaScript, jQuery, HTML, CSS & Bootstrap
+Technologies covered: JSON, JavaScript, jQuery, HTML, CSS & Bootstrap
+
+Below are some examples:
 
 ## Tutorial: Cat Photo App
 Bootstrap, HTML & CSS
 
 https://rawgit.com/carleneconner/FreeCodeCampTutorials-Exersises/master/CatPhotoApp/index.html
 ![Alt text](http://i.imgur.com/jOc1JF1.png?raw=true "Optional Title")
-
-## Skill Builder: jQuery Playground
-
-Messing around with jQuery
 
 ## Project Exersise: Tribute Page
 
